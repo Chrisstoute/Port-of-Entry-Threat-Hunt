@@ -1,8 +1,34 @@
 # 🚢 Port of Entry Threat Hunt
 
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:1E3A8A,100:0EA5E9&height=170&section=header&text=Port%20of%20Entry%20Threat%20Hunt&fontSize=34&fontColor=ffffff&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:1E3A8A,100:0EA5E9&height=170&section=header&text=Azuki%20Port%20of%20Entry%20Threat%20Hunt&fontSize=34&fontColor=ffffff&animation=fadeIn" />
+
+</div>
+
+</div>
+
+<div align="center">
+
+
+<table>
+<tr>
+<td align="center">
+
+<h3>🛡️ Cyber Range Scenario Credit 🛡️</h3>
+
+<strong>This threat hunt scenario was provided by Josh Madakor, CEO of The Cyber Range.</strong>
+
+<br><br>
+
+<a href="https://www.skool.com/cyber-range">
+  <img src="https://img.shields.io/badge/JOIN%20THE%20CYBER%20RANGE-CLICK%20HERE-red?style=for-the-badge&labelColor=000000&color=ff0000" alt="Join The Cyber Range">
+</a>
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -153,7 +179,7 @@ DeviceRegistryEvents
 
 ![Identifying Windows Defender Extension Exclusions](Screenshots/5_Identifying_Windows_Defender_Extension_Exclusions.jpg)
 
-**Flag 5:** `3`
+**Flag 5:** `3 Instances`
 
 ---
 
@@ -268,7 +294,7 @@ Using the same network telemetry, I confirmed the remote port used by the suspic
 
 ![Identifying C2 Communication Port](Screenshots/11_Identifying_C2_Communication_Port.jpg)
 
-**Flag 11:** `443`
+**Flag 11:** `Port 443`
 
 ---
 
@@ -363,7 +389,7 @@ DeviceProcessEvents
 
 ![Identifying Event Log Clearing Activity](Screenshots/15_Identifying_Event_Log_Clearing_Activity.jpg)
 
-**Flag 16:** `Security`
+**Flag 16:** `Security Log Tampering`
 
 ---
 
@@ -385,7 +411,7 @@ DeviceProcessEvents
 
 ![Identifying Local Admin Account Creation](Screenshots/16_Identifying_Local_Admin_Account_Creation.jpg)
 
-**Flag 17:** `support`
+**Flag 17:** `Support Account Creation`
 
 ---
 
@@ -596,6 +622,12 @@ The attacker used valid account access, Windows-native utilities, PowerShell, De
 ---
 
 <div align="center">
+
+<a href="https://www.linkedin.com/in/chris-stoute-157040164/" target="_blank">
+  <img src="https://img.shields.io/badge/Connect%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
+</a>
+
+<br><br>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:1E3A8A,100:0B1220&height=120&section=footer" />
 
