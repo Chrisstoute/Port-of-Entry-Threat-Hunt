@@ -61,8 +61,8 @@ DeviceLogonEvents
 
 ![Reviewing Device Logon Events](Screenshots/1_Reviewing_Device_Logon_Events_For_Azuki_SL.jpg)
 
-**Flag 1 Answer:** `88.97.178.12`  
-**Flag 2 Answer:** `kenji.sato`
+**Flag 1:** `88.97.178.12`  
+**Flag 2:** `kenji.sato`
 
 ---
 
@@ -106,7 +106,7 @@ DeviceProcessEvents
 
 ![Identifying Network Neighbor Enumeration Command](Screenshots/3_Identifying_Network_Neighbor_Enumeration_Command.jpg)
 
-**Flag 3 Answer:** `ARP.EXE -a`
+**Flag 3:** `ARP.EXE -a`
 
 ---
 
@@ -130,7 +130,7 @@ DeviceFileEvents
 
 ![Identifying Malware Staging Directory](Screenshots/4_Identifying_Malware_Staging_Directory_From_File_Events.jpg)
 
-**Flag 4 Answer:** `C:\ProgramData\WindowsCache`
+**Flag 4:** `C:\ProgramData\WindowsCache`
 
 ---
 
@@ -153,7 +153,7 @@ DeviceRegistryEvents
 
 ![Identifying Windows Defender Extension Exclusions](Screenshots/5_Identifying_Windows_Defender_Extension_Exclusions.jpg)
 
-**Flag 5 Answer:** `3`
+**Flag 5:** `3`
 
 ---
 
@@ -176,7 +176,7 @@ DeviceRegistryEvents
 
 ![Identifying Windows Defender Temporary Path Exclusion](Screenshots/6_Identifying_Windows_Defender_Temporary_Path_Exclusion.jpg)
 
-**Flag 6 Answer:** `C:\Users\KENJI~1.SAT\AppData\Local\Temp`
+**Flag 6:** `C:\Users\KENJI~1.SAT\AppData\Local\Temp`
 
 ---
 
@@ -199,7 +199,7 @@ DeviceProcessEvents
 
 ![Identifying Windows Native Download Binary](Screenshots/7_Identifying_Windows_Native_Download_Binary.jpg)
 
-**Flag 7 Answer:** `certutil.exe`
+**Flag7 :** `certutil.exe`
 
 ---
 
@@ -223,7 +223,7 @@ DeviceProcessEvents
 
 ![Identifying Scheduled Task Name](Screenshots/8_Identifying_Scheduled_Task_Persistence_Name.jpg)
 
-**Flag 8 Answer:** `Windows Update Check`
+**Flag8 :** `Windows Update Check`
 
 ---
 
@@ -235,7 +235,7 @@ I reviewed the full `schtasks.exe /create` command to identify the executable co
 
 ![Identifying Scheduled Task Target Executable](Screenshots/9_Identifying_Scheduled_Task_Target_Executable.jpg)
 
-**Flag 9 Answer:** `C:\ProgramData\WindowsCache\svchost.exe`
+**Flag9 :** `C:\ProgramData\WindowsCache\svchost.exe`
 
 ---
 
@@ -258,7 +258,7 @@ DeviceNetworkEvents
 
 ![Identifying C2 Server Address](Screenshots/10_Identifying_C2_Server_Address.jpg)
 
-**Flag 10 Answer:** `78.141.196.6`
+**Flag10 :** `78.141.196.6`
 
 ---
 
@@ -268,7 +268,7 @@ Using the same network telemetry, I confirmed the remote port used by the suspic
 
 ![Identifying C2 Communication Port](Screenshots/11_Identifying_C2_Communication_Port.jpg)
 
-**Flag 11 Answer:** `443`
+**Flag 11:** `443`
 
 ---
 
@@ -291,8 +291,8 @@ DeviceProcessEvents
 
 ![Identifying Credential Dumping Tool](Screenshots/12_Identifying_Credential_Dumping_Tool.jpg)
 
-**Flag 12 Answer:** `mm.exe`  
-**Flag 13 Answer:** `sekurlsa::logonpasswords`
+**Flag 12:** `mm.exe`  
+**Flag 13:** `sekurlsa::logonpasswords`
 
 ---
 
@@ -317,7 +317,7 @@ DeviceFileEvents
 
 ![Identifying Staged Data Archive File](Screenshots/13_Identifying_Staged_Data_Archive_File.jpg)
 
-**Flag 14 Answer:** `export-data.zip`
+**Flag 14:** `export-data.zip`
 
 ---
 
@@ -340,7 +340,7 @@ DeviceNetworkEvents
 
 ![Identifying Data Exfiltration to Discord](Screenshots/14_Identifying_Data_Exfiltration_To_Discord.jpg)
 
-**Flag 15 Answer:** `Discord`
+**Flag 15:** `Discord`
 
 ---
 
@@ -363,7 +363,7 @@ DeviceProcessEvents
 
 ![Identifying Event Log Clearing Activity](Screenshots/15_Identifying_Event_Log_Clearing_Activity.jpg)
 
-**Flag 16 Answer:** `Security`
+**Flag 16:** `Security`
 
 ---
 
@@ -385,7 +385,7 @@ DeviceProcessEvents
 
 ![Identifying Local Admin Account Creation](Screenshots/16_Identifying_Local_Admin_Account_Creation.jpg)
 
-**Flag 17 Answer:** `support`
+**Flag 17:** `support`
 
 ---
 
@@ -409,7 +409,7 @@ DeviceFileEvents
 
 ![Identifying Malicious PowerShell Attack Script](Screenshots/17_Identifying_Malicious_PowerShell_Attack_Script.jpg)
 
-**Flag 18 Answer:** `wupdate.ps1`
+**Flag 18:** `wupdate.ps1`
 
 ---
 
@@ -431,7 +431,7 @@ DeviceProcessEvents
 
 ![Identifying RDP Credential Staging With Cmdkey](Screenshots/18_Identifying_RDP_Credential_Staging_With_Cmdkey.jpg)
 
-**Flag 19 Answer:** `10.1.0.188`
+**Flag 19:** `10.1.0.188`
 
 ---
 
@@ -443,13 +443,13 @@ Using the same process telemetry, I confirmed the tool used to initiate the remo
 
 ![Identifying Remote Access Tool Used For Lateral Movement](Screenshots/19_Identifying_Remote_Access_Tool_Used_For_Lateral_Movement.jpg)
 
-**Flag 20 Answer:** `mstsc.exe`
+**Flag 20:** `mstsc.exe`
 
 ---
 
-# 🧾 Flag Answer Summary
+# 🧾 Flag  Summary
 
-| Flag | Question / Finding | Answer |
+| Flag | Question / Finding |  |
 |---:|---|---|
 | 1 | Initial public source IP | `88.97.178.12` |
 | 2 | Compromised account | `kenji.sato` |
